@@ -1,0 +1,193 @@
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #777;
+}
+
+body h1 {
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: #000;
+}
+
+body h3 {
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+body a {
+    color: #06f;
+}
+
+.info-table td:nth-child(1) {
+    width: 30%;
+}
+
+.invoice-box {
+    width: 794px;
+    height: 1122px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.invoice-box table {
+    width: 100%;
+    line-height: inherit;
+    border-collapse: collapse;
+}
+
+.invoice-box table td {
+    padding: 5px;
+}
+
+.invoice-box table tr td:nth-child(2) {
+    text-align: right;
+}
+
+.invoice-box table tr.top table td {
+    padding-bottom: 20px;
+}
+
+.title {
+    vertical-align: top;
+}
+
+.invoice-box table tr.information table td {
+    padding-bottom: 40px;
+}
+
+.sender-info {
+    vertical-align: bottom;
+}
+
+.invoice-box table tr.heading td {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.invoice-box table tr.heading td:nth-child(1) {
+    width: 55%;
+}
+
+.invoice-box table tr.heading td:nth-child(2) {
+    width: 10.5%;
+    text-align: left;
+}
+
+.invoice-box table tr.heading td:nth-child(3) {
+    width: 17.25%;
+}
+
+.invoice-box table tr.heading td:nth-child(4) {
+    width: 17.25%;
+}
+
+.invoice-box table tr.heading td:nth-child(5) {}
+
+
+
+
+.invoice-box table tr.details td {
+    padding-bottom: 20px;
+}
+
+.invoice-box table tr.item td {
+    border-bottom: 1px solid #eee;
+}
+
+.invoice-box table tr.item.last td {
+    border-bottom: none;
+}
+
+.invoice-box table tr.item td:nth-child(5) {
+    padding: 5px 0 5px 0;
+}
+
+.total-div {
+    width: 93%;
+    display: flex;
+    justify-content: end;
+}
+
+.total {
+    border-top: 2px solid #eee;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.tilsamans {
+    font-weight: bold;
+}
+
+.mvg {}
+
+.logo {
+    width: 50%;
+}
+
+.remove-inner-spin-button::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*Load customer*/
+.customers-div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #eee;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.customers-lines-div {
+    margin-top: 5px;
+    height: 200px;
+    overflow: auto;
+}
+
+.customer-line-div {
+    width: 100%;
+    margin-bottom: -7px;
+}
+
+.customer-line-div table tr td:nth-child(1) {
+    width: 100%;
+}
+
+.customer-line-button {
+    width: 100%;
+    text-align: left;
+    background-color: white;
+}
+
+.customer-line-button:hover {
+    background-color: #eee;
+}
+
+.search-div {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    width: calc(100% - 16px);
+}
+
+.noEmailError.form-control:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.24) !important;
+}

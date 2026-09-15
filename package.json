@@ -1,0 +1,39 @@
+{
+  "name": "rokningar",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@tauri-apps/api": "^2.11.0",
+    "@tauri-apps/plugin-fs": "^2.4.2",
+    "@tauri-apps/plugin-opener": "^2",
+    "@tauri-apps/plugin-shell": "^2.3.1",
+    "axios": "^1.12.2",
+    "bootstrap": "^5.3.8",
+    "jspdf": "^3.0.3",
+    "mongodb": "^7.1.0",
+    "pdfjs-dist": "^3.11.174",
+    "query-string": "^9.3.1",
+    "react": "^19.2.7",
+    "react-bootstrap-icons": "^1.11.6",
+    "react-dom": "^19.1.0",
+    "react-native-aes-crypto": "^3.3.0",
+    "react-router-dom": "^7.9.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4"
+  }
+}
